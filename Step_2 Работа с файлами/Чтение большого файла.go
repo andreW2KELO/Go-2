@@ -7,7 +7,7 @@ import (
 )
 
 func main() {
-	f, err := os.Open("Step 2 Работа с файлами/literature.txt")
+	f, err := os.Open("Step_2 Работа с файлами/literature.txt")
 	// В таком случае в объекте f будет не содержимое файла,
 	// а его дескриптор, с помощью которого мы прочтём сам файл:
 	if err != nil {

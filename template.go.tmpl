@@ -1,0 +1,32 @@
+
+package {{.Package}}
+
+import (
+    "database/sql"
+    "errors"
+)
+
+type {{.Struct}} struct {
+    db *sql.DB
+}
+
+func New{{.Struct}}(db *sql.DB) *{{.Struct}} {
+    return &{{.Struct}}{db: db}
+}
+
+func (s *{{.Struct}}) Create{{.Struct}}(u *{{.User}}) error {
+    // Создаёт пользователя в базе данных
+}
+
+func (s *{{.Struct}}) Read{{.Struct}}(id int) (*{{.User}}, error) {
+    // Читает пользователя из базы данных
+}
+
+func (s *{{.Struct}}) Update{{.Struct}}(u *{{.User}}) error {
+    // Обновляет пользователя в базе данных
+}
+
+func (s *{{.Struct}}) Delete{{.Struct}}(id int) error {
+    // Удаляет пользователя из базы данных
+}
+    

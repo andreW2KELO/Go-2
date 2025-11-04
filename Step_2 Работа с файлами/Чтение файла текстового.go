@@ -6,7 +6,7 @@ import (
 )
 
 func readFileLiterature(filename string) (string, error) {
-	data, err := os.ReadFile("Step 2 Работа с файлами/" + filename)
+	data, err := os.ReadFile("Step_2 Работа с файлами/" + filename)
 	if err != nil {
 		return "", err
 	}

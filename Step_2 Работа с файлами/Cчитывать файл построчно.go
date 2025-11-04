@@ -11,7 +11,7 @@ func process(line string) {
 }
 
 func main() {
-	f, err := os.Open("Step 2 Работа с файлами/literature.txt")
+	f, err := os.Open("Step_2 Работа с файлами/literature.txt")
 	if err != nil {
 		fmt.Println(err)
 	}

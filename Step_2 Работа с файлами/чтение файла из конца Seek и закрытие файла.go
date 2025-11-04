@@ -12,7 +12,7 @@ import (
 // а с выбранного места:
 
 func main() {
-	f, err := os.Open("Step 2 Работа с файлами/literature.txt")
+	f, err := os.Open("Step_2 Работа с файлами/literature.txt")
 
 	defer func(f *os.File) { // Закрытие файла
 		err := f.Close()

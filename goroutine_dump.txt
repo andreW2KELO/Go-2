@@ -1,0 +1,96 @@
+goroutine profile: total 2
+1 @ 0x437c31 0x47171d 0x4c2591 0x4c23a5 0x4bf22b 0x4d5dbe 0x478ea1
+#	0x4c2590	runtime/pprof.writeRuntimeProfile+0xb0	/usr/local/go/src/runtime/pprof/pprof.go:788
+#	0x4c23a4	runtime/pprof.writeGoroutine+0x44	/usr/local/go/src/runtime/pprof/pprof.go:747
+#	0x4bf22a	runtime/pprof.(*Profile).WriteTo+0x14a	/usr/local/go/src/runtime/pprof/pprof.go:371
+#	0x4d5dbd	main.main.func1+0x3d			/home/andrey/Рабочий стол/GolandProjects/awesomeProject/Step_10_race_detector/Дамп горутин.go:23
+
+1 @ 0x47232e 0x4755a5 0x4d5d4b 0x441e7d 0x478ea1
+#	0x4755a4	time.Sleep+0x164	/usr/local/go/src/runtime/time.go:363
+#	0x4d5d4a	main.main+0x10a		/home/andrey/Рабочий стол/GolandProjects/awesomeProject/Step_10_race_detector/Дамп горутин.go:34
+#	0x441e7c	runtime.main+0x29c	/usr/local/go/src/runtime/proc.go:285
+
+goroutine profile: total 2
+1 @ 0x437c31 0x47171d 0x4c2591 0x4c23a5 0x4bf22b 0x4d5dbe 0x478ea1
+#	0x4c2590	runtime/pprof.writeRuntimeProfile+0xb0	/usr/local/go/src/runtime/pprof/pprof.go:788
+#	0x4c23a4	runtime/pprof.writeGoroutine+0x44	/usr/local/go/src/runtime/pprof/pprof.go:747
+#	0x4bf22a	runtime/pprof.(*Profile).WriteTo+0x14a	/usr/local/go/src/runtime/pprof/pprof.go:371
+#	0x4d5dbd	main.main.func1+0x3d			/home/andrey/Рабочий стол/GolandProjects/awesomeProject/Step_10_race_detector/Дамп горутин.go:23
+
+1 @ 0x47232e 0x4755a5 0x4d5d4b 0x441e7d 0x478ea1
+#	0x4755a4	time.Sleep+0x164	/usr/local/go/src/runtime/time.go:363
+#	0x4d5d4a	main.main+0x10a		/home/andrey/Рабочий стол/GolandProjects/awesomeProject/Step_10_race_detector/Дамп горутин.go:34
+#	0x441e7c	runtime.main+0x29c	/usr/local/go/src/runtime/proc.go:285
+
+goroutine profile: total 2
+1 @ 0x437c31 0x47171d 0x4c2591 0x4c23a5 0x4bf22b 0x4d5dbe 0x478ea1
+#	0x4c2590	runtime/pprof.writeRuntimeProfile+0xb0	/usr/local/go/src/runtime/pprof/pprof.go:788
+#	0x4c23a4	runtime/pprof.writeGoroutine+0x44	/usr/local/go/src/runtime/pprof/pprof.go:747
+#	0x4bf22a	runtime/pprof.(*Profile).WriteTo+0x14a	/usr/local/go/src/runtime/pprof/pprof.go:371
+#	0x4d5dbd	main.main.func1+0x3d			/home/andrey/Рабочий стол/GolandProjects/awesomeProject/Step_10_race_detector/Дамп горутин.go:23
+
+1 @ 0x47232e 0x4755a5 0x4d5d4b 0x441e7d 0x478ea1
+#	0x4755a4	time.Sleep+0x164	/usr/local/go/src/runtime/time.go:363
+#	0x4d5d4a	main.main+0x10a		/home/andrey/Рабочий стол/GolandProjects/awesomeProject/Step_10_race_detector/Дамп горутин.go:34
+#	0x441e7c	runtime.main+0x29c	/usr/local/go/src/runtime/proc.go:285
+
+goroutine profile: total 2
+1 @ 0x437c31 0x47171d 0x4c2591 0x4c23a5 0x4bf22b 0x4d5dbe 0x478ea1
+#	0x4c2590	runtime/pprof.writeRuntimeProfile+0xb0	/usr/local/go/src/runtime/pprof/pprof.go:788
+#	0x4c23a4	runtime/pprof.writeGoroutine+0x44	/usr/local/go/src/runtime/pprof/pprof.go:747
+#	0x4bf22a	runtime/pprof.(*Profile).WriteTo+0x14a	/usr/local/go/src/runtime/pprof/pprof.go:371
+#	0x4d5dbd	main.main.func1+0x3d			/home/andrey/Рабочий стол/GolandProjects/awesomeProject/Step_10_race_detector/Дамп горутин.go:23
+
+1 @ 0x47232e 0x4755a5 0x4d5d4b 0x441e7d 0x478ea1
+#	0x4755a4	time.Sleep+0x164	/usr/local/go/src/runtime/time.go:363
+#	0x4d5d4a	main.main+0x10a		/home/andrey/Рабочий стол/GolandProjects/awesomeProject/Step_10_race_detector/Дамп горутин.go:34
+#	0x441e7c	runtime.main+0x29c	/usr/local/go/src/runtime/proc.go:285
+
+goroutine profile: total 2
+1 @ 0x437c31 0x47171d 0x4c2591 0x4c23a5 0x4bf22b 0x4d5dbe 0x478ea1
+#	0x4c2590	runtime/pprof.writeRuntimeProfile+0xb0	/usr/local/go/src/runtime/pprof/pprof.go:788
+#	0x4c23a4	runtime/pprof.writeGoroutine+0x44	/usr/local/go/src/runtime/pprof/pprof.go:747
+#	0x4bf22a	runtime/pprof.(*Profile).WriteTo+0x14a	/usr/local/go/src/runtime/pprof/pprof.go:371
+#	0x4d5dbd	main.main.func1+0x3d			/home/andrey/Рабочий стол/GolandProjects/awesomeProject/Step_10_race_detector/Дамп горутин.go:23
+
+1 @ 0x47232e 0x4755a5 0x4d5d4b 0x441e7d 0x478ea1
+#	0x4755a4	time.Sleep+0x164	/usr/local/go/src/runtime/time.go:363
+#	0x4d5d4a	main.main+0x10a		/home/andrey/Рабочий стол/GolandProjects/awesomeProject/Step_10_race_detector/Дамп горутин.go:34
+#	0x441e7c	runtime.main+0x29c	/usr/local/go/src/runtime/proc.go:285
+
+goroutine profile: total 2
+1 @ 0x437c31 0x47171d 0x4c2591 0x4c23a5 0x4bf22b 0x4d5dbe 0x478ea1
+#	0x4c2590	runtime/pprof.writeRuntimeProfile+0xb0	/usr/local/go/src/runtime/pprof/pprof.go:788
+#	0x4c23a4	runtime/pprof.writeGoroutine+0x44	/usr/local/go/src/runtime/pprof/pprof.go:747
+#	0x4bf22a	runtime/pprof.(*Profile).WriteTo+0x14a	/usr/local/go/src/runtime/pprof/pprof.go:371
+#	0x4d5dbd	main.main.func1+0x3d			/home/andrey/Рабочий стол/GolandProjects/awesomeProject/Step_10_race_detector/Дамп горутин.go:23
+
+1 @ 0x47232e 0x4755a5 0x4d5d4b 0x441e7d 0x478ea1
+#	0x4755a4	time.Sleep+0x164	/usr/local/go/src/runtime/time.go:363
+#	0x4d5d4a	main.main+0x10a		/home/andrey/Рабочий стол/GolandProjects/awesomeProject/Step_10_race_detector/Дамп горутин.go:34
+#	0x441e7c	runtime.main+0x29c	/usr/local/go/src/runtime/proc.go:285
+
+goroutine profile: total 2
+1 @ 0x437c31 0x47171d 0x4c2591 0x4c23a5 0x4bf22b 0x4d5dbe 0x478ea1
+#	0x4c2590	runtime/pprof.writeRuntimeProfile+0xb0	/usr/local/go/src/runtime/pprof/pprof.go:788
+#	0x4c23a4	runtime/pprof.writeGoroutine+0x44	/usr/local/go/src/runtime/pprof/pprof.go:747
+#	0x4bf22a	runtime/pprof.(*Profile).WriteTo+0x14a	/usr/local/go/src/runtime/pprof/pprof.go:371
+#	0x4d5dbd	main.main.func1+0x3d			/home/andrey/Рабочий стол/GolandProjects/awesomeProject/Step_10_race_detector/Дамп горутин.go:23
+
+1 @ 0x47232e 0x4755a5 0x4d5d4b 0x441e7d 0x478ea1
+#	0x4755a4	time.Sleep+0x164	/usr/local/go/src/runtime/time.go:363
+#	0x4d5d4a	main.main+0x10a		/home/andrey/Рабочий стол/GolandProjects/awesomeProject/Step_10_race_detector/Дамп горутин.go:34
+#	0x441e7c	runtime.main+0x29c	/usr/local/go/src/runtime/proc.go:285
+
+goroutine profile: total 2
+1 @ 0x437c31 0x47171d 0x4c2591 0x4c23a5 0x4bf22b 0x4d5dbe 0x478ea1
+#	0x4c2590	runtime/pprof.writeRuntimeProfile+0xb0	/usr/local/go/src/runtime/pprof/pprof.go:788
+#	0x4c23a4	runtime/pprof.writeGoroutine+0x44	/usr/local/go/src/runtime/pprof/pprof.go:747
+#	0x4bf22a	runtime/pprof.(*Profile).WriteTo+0x14a	/usr/local/go/src/runtime/pprof/pprof.go:371
+#	0x4d5dbd	main.main.func1+0x3d			/home/andrey/Рабочий стол/GolandProjects/awesomeProject/Step_10_race_detector/Дамп горутин.go:23
+
+1 @ 0x47232e 0x4755a5 0x4d5d4b 0x441e7d 0x478ea1
+#	0x4755a4	time.Sleep+0x164	/usr/local/go/src/runtime/time.go:363
+#	0x4d5d4a	main.main+0x10a		/home/andrey/Рабочий стол/GolandProjects/awesomeProject/Step_10_race_detector/Дамп горутин.go:34
+#	0x441e7c	runtime.main+0x29c	/usr/local/go/src/runtime/proc.go:285
+
